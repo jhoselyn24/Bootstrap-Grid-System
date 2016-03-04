@@ -1,0 +1,162 @@
+/* Inserta tu código aqui */
+*{
+	color: black;
+}
+/* -- NAV -- */
+
+header {
+	padding: 3% 0 1%;
+}
+
+a, i{
+	color: black;
+}
+/*segundo navegador */
+
+
+.navbar-default .navbar-brand {
+	color: black;
+	font-size: 4rem
+}
+.navbar {
+	margin-bottom: 0px;
+	color: black;
+}
+.nav-tabs {
+    background: #D6D6D6;
+    padding-top: 50px;
+    margin-left: -48px;
+    width: 1145px;
+}
+.nav-tabs a{
+	color: black;
+	text-shadow: 2px 2px 2px white;
+	font-size: 17px;
+}
+.nav-tabs li a {
+	border-radius: 0px;
+}
+/* -- Columna #1 (col-6) -- */
+.box-historia {
+	color: white;
+	padding: 2% 5%;
+	background-color: #848484;
+	width: 174px;
+	margin:0% 2% 5% 0;
+	text-align: center;
+}
+hr {
+    border: 1px solid silver;
+}
+.boton-web {
+	background-color: black;
+	margin-right: 5%;
+	padding: 0.5% 6%;
+	color: white;
+}
+.boton-web:hover {
+	background-color:#00F0FF ;
+	color:white;
+	text-decoration: none;
+}
+.box-foto {
+	text-align: center;
+	background: gray;
+	padding: 15%;
+	font-size: 20px;
+	margin-bottom: 13px;
+}
+/* -- Columna #2 (col-4) --*/
+.bg-gray {
+	background: #D6D6D6;
+}
+.box-video img{
+	width: 100%;
+}
+.agenda p{
+	background-color:#BDBDBD;
+	color: black;
+	text-align: center;
+	font-size: 1.25em;
+    padding: 20% 0;
+    width: 71px;
+}
+.lema{
+	padding: 5% 11% 5% 5%;
+}
+a{
+	color: black;
+}
+span{
+	font-size: 13px;
+}
+p, span{
+	color: #7A7A7A;
+}
+.bg-informacion a{
+	text-decoration: underline;
+}
+/* -- Columna #3 --*/
+.box-magazine{
+	padding-left: 5%;
+    padding-right: 5%;
+}
+/* footer */
+.box-footer{
+	padding: 2% 0 5% 0;
+	margin-top: 20px;
+}
+.separador {
+	background: gray;
+	padding-top: 0.5%;
+	border: 1px solid black;
+}
+
+.rubros, .suscripcion, .nosotros, .contacto{
+	height: 175px;
+}
+/* -- Utilities -- */
+.b-color{
+	border: 1px solid black;
+}
+.text-black {
+	color: black;
+}
+.f-600 {
+	font-weight: 600;
+}
+.mt-2{
+	margin-top: 2%;
+}
+.pd-2{
+	padding: 2%;
+}
+.mb-5 {
+	margin-bottom: 5%;
+}
+.ml-20{
+	margin-left: 20%;
+}
+.mg-0{
+	margin: 0;
+}
+.pl-5{
+	padding-left: 5%;
+}
+.pr-5{
+	padding-right: 5%;
+}
+.pr-2{
+	padding-right: 2%,
+}
+.ml-10{
+	margin-left: 10px;
+}
+
+@media only screen and (max-width: 480px) {
+    .nav-tabs {
+    	width: 425px;
+    	margin-left: -20px;
+    }	
+
+
